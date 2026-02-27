@@ -13,7 +13,7 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "node",
-    "verbatimModuleSyntax": true,
+    "verbatimModuleSyntax": false,
     "baseUrl": "src",
     "paths": { "*": ["*"] }
   },

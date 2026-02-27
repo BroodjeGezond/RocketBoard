@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/server.js",
   "scripts": {
     "start": "node dist/server.js",
     "dev": "nodemon src/server.ts",
@@ -33,6 +33,7 @@
     "zod": "^4.3.6"
   },
   "devDependencies": {
+    "@types/compression": "^1.8.1",
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
     "@types/jest": "^30.0.0",

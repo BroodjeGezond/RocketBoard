@@ -1,0 +1,14 @@
+{
+  "name": "mollie-hackathon",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n backend,frontend -c blue,green \"npm run dev --prefix backend\" \"npm run dev --prefix frontend/dashboard\"",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend/dashboard",
+    "build": "npm run build --prefix backend && npm run build --prefix frontend/dashboard",
+    "install:all": "npm install --prefix backend && npm install --prefix frontend/dashboard"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}
